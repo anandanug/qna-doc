@@ -141,8 +141,8 @@ elif page == "Aplikasi":
                     st.subheader("Jawaban:")
                     st.write(results.get("answer", "Tidak ada jawaban ditemukan."))
                     
-                    st.subheader("Konteks yang Relevan:")
-                    st.write(results["context"][0].page_content)
+                    # st.subheader("Konteks yang Relevan:")
+                    # st.write(results["context"][0].page_content)
                 else:
                     st.write("Tidak ada konteks yang relevan.")
     else:
